@@ -1,0 +1,90 @@
+{
+  "expo": {
+    "name": "GrabCab",
+    "description": "Taxi Booking App",
+    "slug": "GrabCab",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "notification": {
+      "icon": "./assets/images/push_notification.png"
+    },
+    "version": "1.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/appIcon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.exicube.grabcab",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to find the Cabs near you.",
+        "NSCameraUsageDescription": "This app uses the camera to take your profile picture.",
+        "NSPhotoLibraryUsageDescription": "This app uses Photo Library for uploading your profile picture.",
+        "ITSAppUsesNonExemptEncryption":false,
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "googleSignIn": {
+          "reservedClientId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "buildNumber": "1.4"
+    },
+    "android": {
+      "package": "com.exicube.grabcab",
+      "versionCode": 14,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA_ROLL"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        }
+      },
+      "useNextNotificationsApi": true
+    },
+    "facebookScheme": "fbXXXXXXXXXXXXXXX",
+    "facebookAppId": "XXXXXXXXXXXXXX",
+    "facebookDisplayName": "GrabCab",
+    "extra":{
+      "firebaseConfig":{
+        "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "authDomain": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "databaseURL": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "projectId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "storageBucket": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "messagingSenderId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "appId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "measurementId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "googlemapkey":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "cloud_function_server_url":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "iosStandaloneAppClientId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "androidStandaloneAppClientId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  }
+}
