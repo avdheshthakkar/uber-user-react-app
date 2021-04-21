@@ -9,4 +9,7 @@
 ▷ If you have any question please ask, I'll try to answer to every question and even look at your code if that is necessary.
 
 # Implementation Guide for user app
-**1 - follow this repo to install this app**
+
+**follow this repo to install this app**
+
+▷ https://github.com/avdheshthakkar/uber-system-setup-doc-react-firebase.git
